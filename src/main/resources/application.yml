@@ -1,0 +1,12 @@
+spring:
+  application:
+    name: config-server
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/hejian-newRobot/Config-Center-Repo
+          username: 18207307296@163.com
+          password: angeltoday.25
+server:
+  port: 1201
